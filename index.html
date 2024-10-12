@@ -80,25 +80,34 @@
     <footer>
         <span>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89</span>
     </footer>
-    <div id="myModal" class="modal">
 
-        <!-- Modal content -->
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
         <div class="modal-content">
             <div class="form">
                 <div class="title">ADD ITEM</div>
-                <i class="fa-solid fa-xmark close"></i>
-                
+                <i class="fa-solid fa-xmark close"></i>         
             </div>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" value="John"><br><br>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" value="John"><br><br>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" value="John"><br><br>
-          
-          <p>Some text in the Modal..</p>
+            <div class="form2">
+                <label for="fname">Letter:</label>
+                <input type="text" id="fname" type="letter" placeholder="Letter" aria-label="Letter">
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" type="name" placeholder="Name" aria-label="Name">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> Top Left</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> Top Right</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Bottom Left</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> Bottom Right</label>
+            </div>
+            <div class="buttons">
+                <div id="submit" class="submit">
+                    Add Item
+                </div>
+            </div>
         </div>
-      
       </div>
     <script src="js/script.js"></script>
 </body>
