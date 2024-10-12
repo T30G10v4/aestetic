@@ -1,0 +1,70 @@
+:root {
+
+    /******************** COLOURS ********************/
+
+    --color-sixty: #1F1F1F;
+    /* --color-thirty: #3F1F3F;
+    --color-ten: #EF1FEF;  */
+
+    --color-thirty: #2F0f2f;
+    --color-ten: #9F7F9F;
+
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    
+    --color-one: #0F2F2F;
+    --color-one-light: #7F9F9F;
+    --color-gradient-one: rgba(15, 47, 47,1);
+    
+    --color-gradient-one-light: rgba(127,159,159,1);
+    
+
+    --color-two: #2F0f2f;
+    --color-two-light: #9F7F9F;
+    --color-gradient-two: rgba(47, 15, 47,1);
+    
+    --color-gradient-two-light: rgba(159,127,159,1);
+
+    --color-three: #2F2f0f;
+    --color-three-light: #9F9F7F;
+    --color-gradient-three: rgba(47, 47, 15,1);
+    
+    --color-gradient-three-light: rgba(159,159,127,1);
+
+
+    --color-four: #2F0f0f;
+    --color-four-light: #9F7F7F;
+    --color-gradient-four: rgba(47, 15, 15,1);
+    
+    --color-gradient-four-light: rgba(159,127,127,1);
+
+
+    --color-five: #0F2f0f;
+    --color-five-light: #7F9F7F;
+    --color-gradient-five: rgba(15, 47, 15,1);
+    
+    --color-gradient-five-light: rgba(127,159,127,1);
+
+
+    --color-six: #0F0f2f;
+    --color-six-light: #7F7F9F;
+    --color-gradient-six: rgba(15, 15, 47,1);
+    
+    --color-gradient-six-light: rgba(127,127,159,1);
+
+    
+
+    /******************** MARGINS-PADDINGS ********************/
+
+    --margin-standard: 10px;
+    --padding-standard: 10px;
+
+    --state-width-height: 100px;
+    --dot-height: 25px;
+    --dot-header-height: 50px;
+
+    --columns: 6;
+    --columns-jumbo: 2;
+    --gap: 10px;
+
+}

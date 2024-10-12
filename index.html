@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+          <h1>ÆSTHETIC</h1>  
+        </div>
+        <div class="center">
+            <ul>
+                <li>First</li>
+                <li class="clicked">Second</li>
+                <li>Third</li>
+                <li class="input">
+                    <input type="text" id="fname" name="fname" type="search" placeholder="Search" aria-label="Search">
+                    <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </header>
+    <section class="bottom">
+        <nav>
+
+            <ul>
+                <li id="expand" class="clicked">Select All</li>
+                <li id="comprime" class="">Unselect All</li>
+               
+            </ul>
+
+        </nav>
+        <main id="main-cards">
+        </main>
+        <aside>
+
+            <ul>
+                <li id="add" class="first" title="Add Item">+</li>
+                <li id="remove" class="second" title="Remove Item">-</li>
+            </ul>
+
+        </aside>
+    </section>
+
+    <section class="bottom">
+         <div class="card-long">
+            <div class="long first">
+                <div class="state">
+                    <p>Z</p>
+                    <div class="dot top-left"></div>
+                    <div class="dot top-right"></div>
+                    <div class="dot bottom-left"></div>
+                    <div class="dot bottom-right"></div>
+                </div>
+
+                <p class="name">OpenAI</p>
+            </div>
+            <div class="long second"><h2>Description</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><h2>Test</h2><p>Error neque amet omnis, deleniti in placeat illum esse nihil maxime nulla ipsa corporis repellat quisquam, obcaecati dolorem ullam quibusdam eligendi quidem?</p></div>
+            <div class="long third"><h2>Usage</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est numquam quam quasi fuga vitae enim, tempora praesentium incidunt ducimus veritatis laboriosam non dolorem neque. Quo modi laborum vel quasi non?
+            Ducimus, quisquam dolores? Aliquam dicta ipsum vero obcaecati vitae eaque optio officia fuga, placeat sed assumenda id rem, quasi iusto aut. Cupiditate nemo voluptatem nihil voluptate neque culpa illum et?</p></div>
+            <div class="long fourth">4</div>
+            <div class="long fifth">5</div>
+            <div class="long sixth">
+                
+            </div>
+        </div>
+
+    </section>
+    
+    <footer>
+        <span>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89</span>
+    </footer>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="form">
+                <div class="title">ADD ITEM</div>
+                <i class="fa-solid fa-xmark close"></i>
+                
+            </div>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="John"><br><br>
+          
+          <p>Some text in the Modal..</p>
+        </div>
+      
+      </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
