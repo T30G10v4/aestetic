@@ -4,8 +4,7 @@ const add = document.getElementById("add");
 const remove = document.getElementById("remove");
 const modal = document.getElementById("myModal");
 const close = document.getElementsByClassName("close");
-
-console.log(close);
+const submit = document.getElementById("submit");
 
 var mainards = JSON.parse(localStorage.getItem("mainards"));
 
@@ -53,12 +52,6 @@ comprime.addEventListener("click", () =>{
 add.addEventListener("click", () =>{
 
     modal.style.display = "block";
-
-    mainards.push({"type": "Z",
-        "name": "Funziona!",
-        "topLeft": true, "clicked":false});
-
-    refreshMain(mainards);
    
 });
 
@@ -87,6 +80,30 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+submit.addEventListener("click",()=>{
+
+    const letter = document.getElementById("letter");
+    const name = document.getElementById("name");
+    const topLeft = document.getElementById("top_left");
+    const topRight = document.getElementById("top_right");
+    const bottomLeft = document.getElementById("bottom_left");
+    const bottomRight = document.getElementById("bottom_right");
+
+    console.log(letter.value);
+
+    mainards.push({"type": letter.value,
+    "name": name.value,
+    "topLeft": topLeft.checked?true:false, 
+    "topRight": topRight.checked?true:false, 
+    "bottomLeft": bottomLeft.checked?true:false, 
+    "bottomRight": bottomRight.checked?true:false, 
+    "clicked":false});
+    
+    refreshMain(mainards);
+
+    modal.style.display = "none";
+});
 
 
 function refreshMain(oCards){

@@ -534,7 +534,7 @@ footer{
   }
   
   /* Modal Content/Box */
-  .modal-content {
+.modal-content {
     position:absolute;
     top: 35%;
     left: 50%;
@@ -548,16 +548,36 @@ footer{
     color: var(--color-white);
     font-size: 1.8rem;
 
-    .form{
+    .form1{
 
-        display: flex;
-        justify-content: space-between;
+        position: relative;
 
         .title {
-
+            width: calc(100%/3);
+            margin: 0 auto;
+            margin-bottom: var(--margin-standard);
             color: var(--color-white);
             font-size: 2rem;
+            text-align: center;
 
+        }
+
+        .close{
+
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: var(--color-white);
+            font-size: 2rem;
+            font-weight: bold;
+
+        }
+
+        .close:hover,
+        .close:focus {
+            color: var(--color-ten);
+            text-decoration: none;
+            cursor: pointer;
         }
 
     }
@@ -567,28 +587,94 @@ footer{
         width:89%;
         margin: 0 auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: var(--gap);
-        align-items: flex-start;
+        margin-bottom: var(--margin-standard);
+
+        input{
+
+            display: block;
+            width:100%;
+            height: 100%;
+            padding: var(--padding-standard) ;
+            border-radius: var(--margin-standard);
+            outline: none;
+            border: none;
+            background-color: var(--color-sixty);
+            color: var(--color-white);
+            font-weight: 400;
+            font-size: 1.6rem;
+        }
 
     }
 
-    input{
+    .form3{
 
-        display: block;
-        width:100%;
-        height: 100%;
-        padding: var(--padding-standard) 55px var(--padding-standard) var(--padding-standard);
-        border-radius: var(--margin-standard);
-        outline: none;
-        border: none;
-        background-color: var(--color-sixty);
-        color: var(--color-white);
-        font-weight: 400;
-        font-size: 1.6rem;
+        .state {
+
+            width: var(--state-width-height);
+            height:var(--state-width-height);
+            background-color: var(--color-six);
+            border-radius: 50%;
+            position: relative;
+            margin: 0 auto;
+            border: 1px solid var(--color-black);
+            
+
+            p {
+        
+                line-height: var(--state-width-height);
+                color: var(--color-white);
+                text-align: center;
+                font-size: 4rem;
+            }
+
+            .top.left{
+
+                position: absolute;
+                top:0;
+                left:0;
+
+            }
+
+            .top.right{
+
+                position: absolute;
+                top:0;
+                right:0;
+
+            }
+
+            .bottom.left{
+
+                position: absolute;
+                bottom:0;
+                left:0;
+
+            }
+
+
+            .bottom.right{
+
+                position: absolute;
+                bottom:0;
+                right:0;
+
+            }
+
+            input{
+
+                width:var(--dot-height);
+                height: var(--dot-height);
+
+            }
+        
+        
+        }
+
     }
 
-    .buttons{
+    .form4 {
 
         display: flex;
         justify-content: flex-end;
@@ -596,27 +682,24 @@ footer{
         .submit{
 
             padding:var(--padding-standard);
-            background-color: var(--color-ten);
+            background-color: var(--color-thirty);
             border-radius: 5px;
+            border: 1px solid var(--color-ten);
             cursor: pointer;
+            transition: all ease-in-out .2s;
+
+            &:hover{
+
+                background-color: var(--color-ten);
+
+
+            }
 
         }
 
     }
 
-  }
-  
-  /* The Close Button */
-  .close {
-    color: var(--color-sixty);
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: var(--color-ten);
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+
+
 
