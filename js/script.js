@@ -102,6 +102,9 @@ submit.addEventListener("click",()=>{
     
     refreshMain(mainards);
 
+    letter.value = name.value = "";
+    topLeft.checked = topRight.checked = bottomLeft.checked = bottomRight.checked = false ;
+
     modal.style.display = "none";
 });
 
