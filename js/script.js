@@ -75,8 +75,9 @@ fname.addEventListener("keyup",(e)=>{
     filteredCards = mainards.filter((element)=>{
 
         let lowerName = element.name.toLowerCase();
+        let lowerFname = fname.value.toLowerCase();
 
-        return lowerName.includes(fname.value);
+        return lowerName.includes(lowerFname);
 
     });
 
