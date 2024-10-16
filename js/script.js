@@ -5,6 +5,7 @@ const remove = document.getElementById("remove");
 const modal = document.getElementById("myModal");
 const close = document.getElementsByClassName("close");
 const submit = document.getElementById("submit");
+const fname = document.getElementById("fname");
 
 var mainards = JSON.parse(localStorage.getItem("mainards"));
 
@@ -28,6 +29,8 @@ expand.addEventListener("click", () =>{
         main.clicked = true;
 
     })
+
+
 });
 
 comprime.addEventListener("click", () =>{
@@ -64,6 +67,12 @@ remove.addEventListener("click", () =>{
     })
 
     refreshMain(mainards);
+
+});
+
+fname.addEventListener("keyup",(e)=>{
+
+    alert(fname.value);
 
 });
 
