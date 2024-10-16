@@ -72,8 +72,22 @@ remove.addEventListener("click", () =>{
 
 fname.addEventListener("keyup",(e)=>{
 
-    alert(fname.value);
+    filteredCards = mainards.filter((element)=>{
 
+        let lowerName = element.name.toLowerCase();
+
+        return lowerName.includes(fname.value);
+
+    });
+
+    refreshMain(filteredCards);
+
+    if(fname.value === ""){
+
+        refreshMain(mainards);
+
+    }
+        
 });
 
 // When the user clicks on <span> (x), close the modal
