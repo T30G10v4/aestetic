@@ -1,89 +1,8 @@
-const asdomar = [
+[
     {
-        "type": "R",
-        "name": "LoVxn",
+        "type": "D",
+        "name": "SilverWave Industries",
         "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "N",
-        "name": "yIWjm",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "I",
-        "name": "ORIco",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "T",
-        "name": "kqNEN",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "X",
-        "name": "Jirka",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "S",
-        "name": "UitvT",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Z",
-        "name": "QMCuV",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "G",
-        "name": "JPMPL",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "T",
-        "name": "UJvEi",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "R",
-        "name": "FXRFU",
-        "topLeft": false,
         "topRight": true,
         "bottomLeft": false,
         "bottomRight": true,
@@ -91,188 +10,62 @@ const asdomar = [
     },
     {
         "type": "O",
-        "name": "LasTU",
+        "name": "Nimbus Enterprises",
         "topLeft": false,
-        "topRight": true,
+        "topRight": false,
         "bottomLeft": true,
         "bottomRight": true,
         "clicked": false
     },
     {
         "type": "G",
-        "name": "nDQbv",
+        "name": "Nimbus Enterprises",
         "topLeft": false,
         "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "A",
-        "name": "rAeqv",
-        "topLeft": true,
-        "topRight": true,
         "bottomLeft": true,
         "bottomRight": false,
         "clicked": false
     },
     {
-        "type": "P",
-        "name": "xonUE",
+        "type": "X",
+        "name": "BlueOcean Enterprises",
         "topLeft": false,
-        "topRight": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "X",
+        "name": "SilverWave Industries",
+        "topLeft": true,
+        "topRight": true,
         "bottomLeft": false,
         "bottomRight": true,
         "clicked": false
     },
     {
         "type": "X",
-        "name": "iJeaR",
-        "topLeft": true,
+        "name": "FutureWare",
+        "topLeft": false,
         "topRight": false,
         "bottomLeft": true,
         "bottomRight": true,
         "clicked": false
     },
     {
-        "type": "C",
-        "name": "lYbLz",
+        "type": "N",
+        "name": "Zenith Dynamics",
         "topLeft": false,
         "topRight": true,
         "bottomLeft": true,
         "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "Z",
-        "name": "wZJiV",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "L",
-        "name": "OWINg",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "A",
-        "name": "ucUsv",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "C",
-        "name": "QyEhz",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "T",
-        "name": "PqGCw",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "S",
-        "name": "QNQPl",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Q",
-        "name": "iuukZ",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "S",
-        "name": "qJuGj",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "A",
-        "name": "cFgOw",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "B",
-        "name": "EZVvE",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "D",
-        "name": "zOVgG",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "H",
-        "name": "mbJUs",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "M",
-        "name": "CvaRt",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
         "clicked": false
     },
     {
         "type": "U",
-        "name": "cPAGf",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "M",
-        "name": "igPxU",
-        "topLeft": false,
+        "name": "Brightside Global",
+        "topLeft": true,
         "topRight": true,
         "bottomLeft": false,
         "bottomRight": true,
@@ -280,16 +73,7 @@ const asdomar = [
     },
     {
         "type": "K",
-        "name": "ASCWa",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Q",
-        "name": "UepNY",
+        "name": "BlueOcean Enterprises",
         "topLeft": false,
         "topRight": true,
         "bottomLeft": true,
@@ -297,278 +81,125 @@ const asdomar = [
         "clicked": false
     },
     {
-        "type": "Q",
-        "name": "QhtJf",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
+        "type": "T",
+        "name": "Stellar Networks",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
         "bottomRight": true,
         "clicked": false
     },
     {
-        "type": "A",
-        "name": "ClkZN",
+        "type": "V",
+        "name": "SilverWave Industries",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "X",
+        "name": "QuantumSystems",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "N",
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "T",
+        "name": "InnovaCorp",
         "topLeft": true,
         "topRight": true,
         "bottomLeft": false,
         "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "E",
+        "name": "Hyperion Innovations",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "A",
+        "name": "AlphaSolutions",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
         "clicked": false
     },
     {
         "type": "J",
-        "name": "Xtsjy",
+        "name": "AlphaSolutions",
         "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "I",
-        "name": "VUAHR",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "K",
-        "name": "SYVsv",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Q",
-        "name": "EStqi",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "X",
-        "name": "QfhGK",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "A",
-        "name": "EDKpk",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "X",
-        "name": "dvIqH",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "C",
-        "name": "hehdr",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "L",
-        "name": "cInFw",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "W",
-        "name": "nqRJC",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "X",
-        "name": "zTzSX",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "U",
-        "name": "MzFby",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "E",
-        "name": "ySYeD",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "U",
-        "name": "xJbrv",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Z",
-        "name": "hluID",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "C",
-        "name": "JmixJ",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "U",
-        "name": "rpDRX",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "A",
-        "name": "eKFye",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "L",
-        "name": "DzAQk",
-        "topLeft": false,
         "topRight": true,
         "bottomLeft": true,
         "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "D",
-        "name": "TbxoC",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "P",
-        "name": "aRDzK",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "P",
-        "name": "nxyDv",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "H",
-        "name": "uYtUr",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "P",
-        "name": "ZZzxJ",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "I",
-        "name": "fbWio",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "E",
-        "name": "XuApb",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "C",
-        "name": "zEcUt",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
         "clicked": false
     },
     {
         "type": "T",
-        "name": "qonKg",
+        "name": "BlueOcean Enterprises",
         "topLeft": true,
         "topRight": true,
         "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "Q",
+        "name": "Brightside Global",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
         "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "A",
+        "name": "QuantumSystems",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "E",
+        "name": "PioneerWorks",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
         "clicked": false
     },
     {
         "type": "R",
-        "name": "nwyUQ",
+        "name": "Stellar Networks",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "S",
+        "name": "InnovaCorp",
         "topLeft": true,
         "topRight": true,
         "bottomLeft": true,
@@ -576,62 +207,62 @@ const asdomar = [
         "clicked": false
     },
     {
-        "type": "X",
-        "name": "svyUQ",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
+        "type": "E",
+        "name": "Skyline Ventures",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
         "bottomRight": true,
         "clicked": false
     },
     {
-        "type": "D",
-        "name": "mWoHD",
-        "topLeft": true,
+        "type": "H",
+        "name": "Hyperion Innovations",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "Q",
+        "name": "NextGen Technologies",
+        "topLeft": false,
         "topRight": true,
         "bottomLeft": false,
         "bottomRight": true,
         "clicked": false
     },
     {
-        "type": "P",
-        "name": "pkvyu",
+        "type": "A",
+        "name": "SilverWave Industries",
         "topLeft": false,
-        "topRight": false,
+        "topRight": true,
         "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "J",
-        "name": "utsdG",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
         "bottomRight": true,
         "clicked": false
     },
     {
-        "type": "G",
-        "name": "lHbMh",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "Y",
-        "name": "TOyxA",
+        "type": "M",
+        "name": "GlobeTech",
         "topLeft": true,
-        "topRight": false,
-        "bottomLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
         "bottomRight": true,
         "clicked": false
     },
     {
-        "type": "D",
-        "name": "BcEUL",
+        "type": "I",
+        "name": "NextGen Technologies",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "E",
+        "name": "GreenValley Labs",
         "topLeft": false,
         "topRight": true,
         "bottomLeft": false,
@@ -640,124 +271,52 @@ const asdomar = [
     },
     {
         "type": "N",
-        "name": "iEfCx",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "X",
-        "name": "aojOH",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
         "bottomRight": false,
         "clicked": false
     },
     {
-        "type": "C",
-        "name": "uZnlG",
-        "topLeft": true,
+        "type": "H",
+        "name": "GlobeTech",
+        "topLeft": false,
         "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
         "clicked": false
     },
     {
         "type": "T",
-        "name": "eJnHM",
+        "name": "Brightside Global",
         "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "F",
+        "name": "GlobeTech",
+        "topLeft": false,
         "topRight": true,
         "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "K",
+        "name": "SilverWave Industries",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
         "bottomRight": false,
         "clicked": false
     },
     {
         "type": "X",
-        "name": "YFkMX",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "O",
-        "name": "zfcAI",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "R",
-        "name": "PBwFW",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Y",
-        "name": "Wwcly",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "A",
-        "name": "OVgtb",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "Q",
-        "name": "HDRxb",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "E",
-        "name": "MRhHN",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Y",
-        "name": "GmgFh",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "I",
-        "name": "FiHvz",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "E",
-        "name": "ZanEm",
+        "name": "Solaris Corp",
         "topLeft": false,
         "topRight": true,
         "bottomLeft": false,
@@ -766,88 +325,7 @@ const asdomar = [
     },
     {
         "type": "F",
-        "name": "UhLxs",
-        "topLeft": false,
-        "topRight": true,
-        "bottomLeft": false,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "M",
-        "name": "PycGS",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "P",
-        "name": "kTyDg",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "I",
-        "name": "kJNMF",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "K",
-        "name": "kubHD",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "Y",
-        "name": "MEFtE",
-        "topLeft": true,
-        "topRight": true,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "Z",
-        "name": "UTIBk",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": false,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "B",
-        "name": "eEbUe",
-        "topLeft": true,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": true,
-        "clicked": false
-    },
-    {
-        "type": "Y",
-        "name": "RVudJ",
-        "topLeft": false,
-        "topRight": false,
-        "bottomLeft": true,
-        "bottomRight": false,
-        "clicked": false
-    },
-    {
-        "type": "Y",
-        "name": "njALK",
+        "name": "Skyline Ventures",
         "topLeft": true,
         "topRight": false,
         "bottomLeft": false,
@@ -855,8 +333,89 @@ const asdomar = [
         "clicked": false
     },
     {
-        "type": "V",
-        "name": "JTRhx",
+        "type": "W",
+        "name": "Hyperion Innovations",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "W",
+        "name": "Skyline Ventures",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "X",
+        "name": "GlobeTech",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "X",
+        "name": "ApexSoft",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "L",
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "C",
+        "name": "FutureWare",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "L",
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "F",
+        "name": "Stellar Networks",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "J",
+        "name": "NextGen Technologies",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "Q",
+        "name": "Stellar Networks",
         "topLeft": true,
         "topRight": true,
         "bottomLeft": false,
@@ -865,16 +424,25 @@ const asdomar = [
     },
     {
         "type": "L",
-        "name": "Wqqql",
-        "topLeft": true,
+        "name": "Nimbus Enterprises",
+        "topLeft": false,
         "topRight": true,
-        "bottomLeft": false,
+        "bottomLeft": true,
         "bottomRight": false,
         "clicked": false
     },
     {
-        "type": "K",
-        "name": "Omwdn",
+        "type": "Y",
+        "name": "PeakLogic",
+        "topLeft": false,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "V",
+        "name": "Solaris Corp",
         "topLeft": true,
         "topRight": false,
         "bottomLeft": true,
@@ -882,8 +450,17 @@ const asdomar = [
         "clicked": false
     },
     {
-        "type": "R",
-        "name": "ODmMg",
+        "type": "J",
+        "name": "TechNova",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "N",
+        "name": "TechNova",
         "topLeft": false,
         "topRight": false,
         "bottomLeft": true,
@@ -891,12 +468,435 @@ const asdomar = [
         "clicked": false
     },
     {
+        "type": "M",
+        "name": "InnovaCorp",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "L",
+        "name": "InnovaCorp",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "S",
+        "name": "Skyline Ventures",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
         "type": "W",
-        "name": "YZfDX",
+        "name": "InnovaCorp",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "I",
+        "name": "ApexSoft",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "W",
+        "name": "SilverWave Industries",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "F",
+        "name": "SilverWave Industries",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "O",
+        "name": "TechNova",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "U",
+        "name": "AlphaSolutions",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "H",
+        "name": "SilverWave Industries",
+        "topLeft": false,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "B",
+        "name": "PioneerWorks",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "U",
+        "name": "AlphaSolutions",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "K",
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "C",
+        "name": "Skyline Ventures",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "L",
+        "name": "SilverWave Industries",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "P",
+        "name": "TechNova",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "J",
+        "name": "TechNova",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "K",
+        "name": "NextGen Technologies",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "F",
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "Y",
+        "name": "Brightside Global",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "M",
+        "name": "BlueOcean Enterprises",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "A",
+        "name": "ApexSoft",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "F",
+        "name": "GreenValley Labs",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "B",
+        "name": "FutureWare",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "O",
+        "name": "NextGen Technologies",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "Y",
+        "name": "BlueOcean Enterprises",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "N",
+        "name": "AlphaSolutions",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "I",
+        "name": "Skyline Ventures",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "U",
+        "name": "QuantumSystems",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "M",
+        "name": "Nimbus Enterprises",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "T",
+        "name": "InnovaCorp",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "G",
+        "name": "Nimbus Enterprises",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "C",
+        "name": "Skyline Ventures",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "Q",
+        "name": "ApexSoft",
+        "topLeft": false,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "Q",
+        "name": "InnovaCorp",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "Z",
+        "name": "BlueOcean Enterprises",
+        "topLeft": false,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "I",
+        "name": "AlphaSolutions",
+        "topLeft": false,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "B",
+        "name": "Hyperion Innovations",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "J",
+        "name": "TechNova",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "P",
+        "name": "Skyline Ventures",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "C",
+        "name": "ApexSoft",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "A",
+        "name": "Stellar Networks",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "B",
+        "name": "Brightside Global",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
+    },
+    {
+        "type": "H",
+        "name": "ApexSoft",
+        "topLeft": true,
+        "topRight": true,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "I",
+        "name": "GreenValley Labs",
         "topLeft": false,
         "topRight": false,
         "bottomLeft": false,
         "bottomRight": false,
         "clicked": false
+    },
+    {
+        "type": "D",
+        "name": "PioneerWorks",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "V",
+        "name": "BlueOcean Enterprises",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": true,
+        "bottomRight": false,
+        "clicked": false
+    },
+    {
+        "type": "B",
+        "name": "Zenith Dynamics",
+        "topLeft": true,
+        "topRight": false,
+        "bottomLeft": false,
+        "bottomRight": true,
+        "clicked": false
     }
-];
+]

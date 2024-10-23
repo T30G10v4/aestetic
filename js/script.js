@@ -7,7 +7,7 @@ const close = document.getElementsByClassName("close");
 const submit = document.getElementById("submit");
 const fname = document.getElementById("fname");
 
-var mainards = JSON.parse(localStorage.getItem("mainards"));
+let mainards = JSON.parse(localStorage.getItem("mainards"));
 
 refreshMain(mainards);
 
@@ -113,8 +113,6 @@ submit.addEventListener("click",()=>{
     const topRight = document.getElementById("top_right");
     const bottomLeft = document.getElementById("bottom_left");
     const bottomRight = document.getElementById("bottom_right");
-
-    console.log(letter.value);
 
     mainards.push({"type": letter.value,
     "name": name.value,
